@@ -1,1 +1,122 @@
 
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section */
+#hero {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    color: #333;
+}
+
+/* About section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    color: #666;
+}
+
+/* Services section */
+#services {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+#services h2 {
+    color: #333;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact section */
+#contact {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.grey-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
