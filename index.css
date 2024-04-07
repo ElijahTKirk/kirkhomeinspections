@@ -102,13 +102,14 @@ nav ul li a {
 }
 
 .btn {
-    display: inline-block;
+    display: block;
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .grey-button {
