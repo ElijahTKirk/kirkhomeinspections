@@ -1,17 +1,59 @@
-I, the undersigned, release you, the inspector identified below, from any liability for any claims I may have (or may later discover) against you arising out of your inspection of my property located at _____________________________________________________, performed on the date of _____________________________.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
 
-The terms below govern this release.
- 
-1. In return for this release, you have paid me $_____.   I understand this will be the sole consideration for this release.
+        label {
+            font-weight: bold;
+        }
 
-2. I understand that your agreement to pay me in return for this release is not an admission of fault and is a compromise of a disputed claim.
- 
-3. This release applies to your subsidiaries and their respective principals, affiliates, related entities, shareholders, officers, directors, agents, employees and their respective heirs, executors, administrators, successors, and assigns.  I release them all.
- 
-4. I sign this release on behalf of myself and all others with an interest in the property and/or the claims, and I represent that I am authorized to do so. This document shall be binding on my heirs, successors, and assigns.
- 
-5. The terms of this settlement are confidential. Neither party may disclose the terms of this settlement, except pursuant to a subpoena or as required by law. The parties agree not to disparage each other in any way, in any form. I will make no public statements of any kind pertaining to the inspector or the inspection, except pursuant to a subpoena or as required by law.  I will remove any comments I have posted about the inspection or the inspector from any online website, and refrain from ever making any such comments.
- 
-6. This release contains the entire agreement between us on this matter.  There are no other terms or promises that are not set forth in this release.
- 
-7. If I bring an action in violation of this release and do not prevail, or if I breach the terms of paragraph 5, I agree to pay your reasonable attorney?s fees and costs incurred in any related legal action.
+        input[type="text"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Release Form</h1>
+    <form id="release-form">
+        <div>
+            <label for="your-name">Your Name:</label><br>
+            <input type="text" id="your-name" name="your-name" required><br>
+        </div>
+        <div>
+            <label for="inspector-name">Inspector's Name:</label><br>
+            <input type="text" id="inspector-name" name="inspector-name" required><br>
+        </div>
+        <div>
+            <label for="property-address">Property Address:</label><br>
+            <textarea id="property-address" name="property-address" rows="3" required></textarea><br>
+        </div>
+        <div>
+  
